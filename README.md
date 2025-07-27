@@ -33,26 +33,7 @@ npm install
 
 # 安装Python依赖
 pip install dashscope
-```
-
-### 配置
-
-在`server.js`文件中，将阿里云百炼API密钥替换为你自己的密钥：
-
-```javascript
-dashscope.api_key = "your-api-key-here"
-```
-
-### 运行应用
-
-```bash
-# 同时启动前端和后端服务
-npm run start
-
-# 或者分别启动
-npm run server  # 启动后端服务
-npm run dev     # 启动前端开发服务器
-```
+`````
 
 ## 使用方法
 
